@@ -24,11 +24,11 @@ p {
 
 }
 
-section {
+.flexible {
     display: flex;
     margin-bottom: 5px;
-
-
+    padding: 10px;
+    width: 100%
 }
 
 .half-width {
@@ -37,15 +37,24 @@ section {
     height: 50%;
     border-color: rgb(204, 56, 11);
     border: 4px;
-    background-image: url(image/header_bg.png);
+
     background-position: left;
     background-repeat: no-repeat;
 
 }
 
 .half-width img {
-    width: 65%;
+    width: 100%;
 }
+
+.img {
+
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+
 
 .link-button {
     text-decoration: none;
@@ -57,6 +66,7 @@ section {
 }
 
 .top-banner {
+
     background-repeat: no-repeat;
 }
 
@@ -77,6 +87,38 @@ section {
     color: rgba(201, 53, 8, 0.884);
 }
 
+.ex-area {
+    width: 65%;
+    padding: 55px;
+    background-image: url(image/images\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.orange-color {
+    color: orange;
+}
+
 .h2 {
     color: rgb(7, 7, 6);
+}
+
+.ex-box-shadow {
+    box-shadow: 10px 10px 40px grey;
+    width: 40%;
+    padding: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 15px;
+    border: 5px;
+    border-color: rgb(134, 212, 243);
+
+    border-style: dashed;
+}
+
+#footer {
+    background-color: black;
+    color: rgb(190, 100, 100);
+    text-align: justify;
+
 }
